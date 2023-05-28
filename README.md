@@ -37,6 +37,7 @@
   <summary>React + Vite</summary>
   <ul>
     <li><a>https://vitejs.dev</a></li>
+    <li><a>https://react.dev</a></li>
   </ul>
 </details>
 
