@@ -27,7 +27,7 @@
 
 # 📖 [Professonal-portfolio-v2] <a name="about-project"></a>
 
-**[Professonal-portfolio-v2]** Is the second portfolio. This portfolio discusses my skills, six most impressive projects I have built, and provides more information on how to contact me. This portfolio is build using React and Vite.
+**[Professonal-portfolio-v2]** Is a second portfolio. This portfolio discusses my skills, six most impressive projects I have built, and provides more information on how to contact me. This portfolio is build using React and Vite.
 
 ## 🛠 Built With <a name="built-with"></a>
 
