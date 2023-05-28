@@ -79,7 +79,6 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd Professonal-portfolio-v2
   npm install
 ```
 
