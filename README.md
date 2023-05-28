@@ -144,7 +144,8 @@ If you like this project please show support by staring ⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-* We would like to thank Microverse for accommodating us in the Full-time Software Development program.
+* I would like to thank Microverse for accommodating me in the Full-time Software Development program.
+* I would like to thank my family for their unnwaivering support through my learning journey.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
