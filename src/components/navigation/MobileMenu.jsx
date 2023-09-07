@@ -15,7 +15,7 @@ const MobileMenu = () => {
   };
 
   return (
-    <div className="absolute top-0 left-0 right-0 bg-white p-4 bg-gray-100" id="menu">
+    <div className="absolute top-0 left-0 right-0 bg-white p-4 bg-gray-200" id="menu">
       <span
         className="text-2xl font-bold cursor-pointer"
         onClick={handleMenuClose}
