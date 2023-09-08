@@ -11,10 +11,10 @@ const Navbar = () => {
   };
 
   return (
-    <div className="text-blue-950 font-bold w-full absolute top-0 p-3 shadow-lg">
+    <div className="text-blue-950 font-bold w-full p-3 shadow-lg">
       <div className="w-full flex gap-1 justify-between text items-center px-2">
         
-        <h1 className="logo text-left text-3xl">
+        <h1 className="logo text-left text-3xl text-primary">
           S.Katuli
         </h1>
 
@@ -28,6 +28,10 @@ const Navbar = () => {
             <FaBars />
           </span>
         </div>
+
+        <a className="btn btn-primary rounded-lg hidden sm:flex">
+          Contact Me
+        </a>
       </div>
     </div>
   );
