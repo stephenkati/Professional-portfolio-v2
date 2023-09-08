@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProjectsHeader = () => {
   return (
-    <div className="text-2xl font-bold text-blue-950 w-1/3 ">
+    <div className="text-3xl font-bold text-blue-950 w-1/3 ">
       <h1 className="slide-in">
         Projects
       </h1>

@@ -18,7 +18,7 @@ const Hero = () => {
           <a href="https://twitter.com/Stephen57913145" target='_blank'> <AiOutlineTwitter /> </a>
           <a href="mailto:stephenkatuli88@gmail.com" target='_blank'> <AiOutlineMail /> </a>
       </div>
-      <a href="#" class="btn btn-secondary hover:bg-secondary-focus rounded-full">Contact me</a>
+      <a href="#contact" class="btn btn-secondary hover:bg-secondary-focus rounded-full">Contact me</a>
     </div>
   )
 }
