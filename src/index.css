@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap');
+
 body {
   margin: 0;
   display: flex;
@@ -6,6 +8,8 @@ body {
   min-height: 100vh;
   background-color: #fff;
   position: relative;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500;
 }
 
 @tailwind base;

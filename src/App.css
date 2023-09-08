@@ -1,7 +1,13 @@
+  @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap');
+
 #root {
   width: 100vw;
   text-align: center;
   min-height: 100vh;
+}
+
+.kalam {
+  font-family: 'Kalam', cursive;
 }
 
 #mobileMenu {
@@ -25,4 +31,14 @@
 
 .slide-in:hover::after {
   width: 100%;
+}
+
+.card {
+  max-width:352px;
+  min-height: 330px;
+  height: max-content;
+}
+
+.card-content {
+  min-height: 220px;
 }

@@ -36,39 +36,39 @@ const Skills = () => {
           <div className="flex flex-wrap justify-between gap-4">
               <div className="flex flex-col gap-1 items-center">
                   <img src={reactIcon} alt="React" className="h-10 w-10" />
-                  <p className="text-xs text-blue-950">React</p>
+                  <p className="text-sm text-blue-950 kalam">React</p>
               </div>
               <div className="flex flex-col gap-1 items-center">
                   <img src={reduxIcon} alt="Redux" className="h-10 w-10" />
-                  <p className="text-xs text-blue-950">Redux</p>
+                  <p className="text-sm text-blue-950 kalam">Redux</p>
               </div>
               <div className="flex flex-col gap-1 items-center">
                   <img src={javascriptIcon} alt="JavaScript" className="h-10 w-10" />
-                  <p className="text-xs text-blue-950">JavaScript</p>
+                  <p className="text-sm text-blue-950 kalam">JavaScript</p>
               </div>
               <div className="flex flex-col gap-1 items-center">
                   <img src={viteIcon} alt="Vite" className="h-10 w-10" />
-                  <p className="text-xs text-blue-950">Vite</p>
+                  <p className="text-sm text-blue-950 kalam">Vite</p>
               </div>
               <div className="flex flex-col gap-1 items-center">
                   <img src={nextJSIcon} alt="Next Js" className="h-10 w-10" />
-                  <p className="text-xs text-blue-950">Next Js</p>
+                  <p className="text-sm text-blue-950 kalam">Next Js</p>
               </div>
               <div className="flex flex-col gap-1 items-center">
                   <img src={htmlIcon} alt="Html5" className="h-10 w-10" />
-                  <p className="text-xs text-blue-950">HTML</p>
+                  <p className="text-sm text-blue-950 kalam">HTML</p>
               </div>
               <div className="flex flex-col gap-1 items-center">
                   <img src={cssIcon} alt="CSS3" className="h-10 w-10" />
-                  <p className="text-xs text-blue-950">CSS</p>
+                  <p className="text-sm text-blue-950 kalam">CSS</p>
               </div>
               <div className="flex flex-col gap-1 items-center">
                   <img src={tailwindIcon} alt="Tailwind CSS" className="h-10 w-10" />
-                  <p className="text-xs text-blue-950">Tailwind</p>
+                  <p className="text-sm text-blue-950 kalam">Tailwind</p>
               </div>
               <div className="flex flex-col gap-1 items-center">
                   <img src={bootstrapIcon} alt="Bootstrap" className="h-10 w-10" />
-                  <p className="text-xs text-blue-950">Bootstrap</p>
+                  <p className="text-sm text-blue-950 kalam">Bootstrap</p>
               </div>
           </div>
         </div>
@@ -88,35 +88,35 @@ const Skills = () => {
           <div class="flex flex-wrap justify-between gap-4">
               <div class="flex flex-col gap-1 items-center">
                   <img src={gitIcon} alt="Git" class="h-10 w-10" />
-                  <p class="text-xs text-blue-950">Git</p>
+                  <p class="text-sm text-blue-950 kalam">Git</p>
               </div>
               <div class="flex flex-col gap-1 items-center">
                   <img src={githubIcon} alt="Github" class="h-10 w-10" />
-                  <p class="text-xs text-blue-950">Github</p>
+                  <p class="text-sm text-blue-950 kalam">Github</p>
               </div>
               <div class="flex flex-col gap-1 items-center">
                   <img src={netlifyIcon} alt="Netlify" class="h-10 w-10" />
-                  <p class="text-xs text-blue-950">Netlify</p>
+                  <p class="text-sm text-blue-950 kalam">Netlify</p>
               </div>
               <div class="flex flex-col gap-1 items-center">
                   <img src={jestIcon} alt="Jest" class="h-10 w-10" />
-                  <p class="text-xs text-blue-950">Jest</p>
+                  <p class="text-sm text-blue-950 kalam">Jest</p>
               </div>
               <div class="flex flex-col gap-1 items-center">
                   <img src={webpackIcon} alt="Webpack" class="h-10 w-10" />
-                  <p class="text-xs text-blue-950">Webpack</p>
+                  <p class="text-sm text-blue-950 kalam">Webpack</p>
               </div>
               <div class="flex flex-col gap-1 items-center">
                   <img src={figmaIcon} alt="Figma" class="h-10 w-10" />
-                  <p class="text-xs text-blue-950">Figma</p>
+                  <p class="text-sm text-blue-950 kalam">Figma</p>
               </div>
               <div class="flex flex-col gap-1 items-center">
                   <img src={photoshopIcon} alt="Photoshop" class="h-10 w-10" />
-                  <p class="text-xs text-blue-950">Photoshop</p>
+                  <p class="text-sm text-blue-950 kalam">Photoshop</p>
               </div>
               <div class="flex flex-col gap-1 items-center">
                   <img src={illustratorIcon} alt="illustrator" class="h-10 w-10" />
-                  <p class="text-xs text-blue-950">Illustrator</p>
+                  <p class="text-sm text-blue-950 kalam">Illustrator</p>
               </div>
           </div>
         </div>
