@@ -3,7 +3,6 @@ import { AiOutlineClose } from 'react-icons/ai'
 
 const MobileMenu = () => {
   const links = [
-    {text: 'Home', section:''},
     {text: 'Projects', section:''},
     {text: 'About', section:''},
     {text: 'Contact', section:''}
@@ -23,7 +22,7 @@ const MobileMenu = () => {
         <AiOutlineClose />
       </span>
 
-      <ul className="flex-col gap-2">
+      <ul className="flex-col gap-2 uppercase">
         {links.map((link) => (
           <li key={link.text} className="p-3 hover:cursor-pointer slide-in">
            {link.text}
