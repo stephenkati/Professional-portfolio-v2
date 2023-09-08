@@ -7,7 +7,7 @@ import ContactMe from './ContactMe'
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col justify-around bg-red-100 min-h-screen items-center">
+    <div className="flex flex-col justify-around min-h-screen items-center">
       <Navbar />
       <Hero />
       <ProjectsHeader />

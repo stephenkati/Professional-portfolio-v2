@@ -2,18 +2,18 @@ import React from 'react'
 
 const DesktopMenu = () => {
   const links = [
-    {text: 'Projects', section:''},
-    {text: 'About', section:''},
-    {text: 'Contact', section:''}
+    {text: 'Projects', section:'#projects'},
+    {text: 'About', section:'#about'},
+    {text: 'Skills', section:'#skills'}
   ];
 
   return (
     <div className="hidden sm:flex items-center text-xl uppercase">
       <ul className="flex gap-2">
         {links.map((link) => (
-          <li key={link.text} className="px-3 hover:cursor-pointer slide-in">
-           {link.text}
-          </li>
+          <a href={link.section} key={link.text} className="p-3 hover:cursor-pointer slide-in">
+            {link.text}
+          </a>
         ))}
       </ul>
     </div>

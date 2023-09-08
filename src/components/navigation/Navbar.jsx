@@ -29,7 +29,7 @@ const Navbar = () => {
           </span>
         </div>
 
-        <a className="btn btn-primary rounded-lg hidden sm:flex">
+        <a href='#contact' className="btn btn-primary rounded-lg hidden sm:flex">
           Contact Me
         </a>
       </div>
