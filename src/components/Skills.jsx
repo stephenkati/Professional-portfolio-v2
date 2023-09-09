@@ -83,40 +83,40 @@ const Skills = () => {
             </div>
         </div>
 
-        <div class="p-2 flex flex-col gap-2 items-center">
-          <h4 class="font-bold text-2xl text-blue-950">Tools & Technologies</h4>
-          <div class="flex flex-wrap justify-between gap-4">
-              <div class="flex flex-col gap-1 items-center">
-                  <img src={gitIcon} alt="Git" class="h-10 w-10" />
-                  <p class="text-sm text-blue-950 kalam">Git</p>
+        <div className="p-2 flex flex-col gap-2 items-center">
+          <h4 className="font-bold text-2xl text-blue-950">Tools & Technologies</h4>
+          <div className="flex flex-wrap justify-between gap-4">
+              <div className="flex flex-col gap-1 items-center">
+                  <img src={gitIcon} alt="Git" className="h-10 w-10" />
+                  <p className="text-sm text-blue-950 kalam">Git</p>
               </div>
-              <div class="flex flex-col gap-1 items-center">
-                  <img src={githubIcon} alt="Github" class="h-10 w-10" />
-                  <p class="text-sm text-blue-950 kalam">Github</p>
+              <div className="flex flex-col gap-1 items-center">
+                  <img src={githubIcon} alt="Github" className="h-10 w-10" />
+                  <p className="text-sm text-blue-950 kalam">Github</p>
               </div>
-              <div class="flex flex-col gap-1 items-center">
-                  <img src={netlifyIcon} alt="Netlify" class="h-10 w-10" />
-                  <p class="text-sm text-blue-950 kalam">Netlify</p>
+              <div className="flex flex-col gap-1 items-center">
+                  <img src={netlifyIcon} alt="Netlify" className="h-10 w-10" />
+                  <p className="text-sm text-blue-950 kalam">Netlify</p>
               </div>
-              <div class="flex flex-col gap-1 items-center">
-                  <img src={jestIcon} alt="Jest" class="h-10 w-10" />
-                  <p class="text-sm text-blue-950 kalam">Jest</p>
+              <div className="flex flex-col gap-1 items-center">
+                  <img src={jestIcon} alt="Jest" className="h-10 w-10" />
+                  <p className="text-sm text-blue-950 kalam">Jest</p>
               </div>
-              <div class="flex flex-col gap-1 items-center">
-                  <img src={webpackIcon} alt="Webpack" class="h-10 w-10" />
-                  <p class="text-sm text-blue-950 kalam">Webpack</p>
+              <div className="flex flex-col gap-1 items-center">
+                  <img src={webpackIcon} alt="Webpack" className="h-10 w-10" />
+                  <p className="text-sm text-blue-950 kalam">Webpack</p>
               </div>
-              <div class="flex flex-col gap-1 items-center">
-                  <img src={figmaIcon} alt="Figma" class="h-10 w-10" />
-                  <p class="text-sm text-blue-950 kalam">Figma</p>
+              <div className="flex flex-col gap-1 items-center">
+                  <img src={figmaIcon} alt="Figma" className="h-10 w-10" />
+                  <p className="text-sm text-blue-950 kalam">Figma</p>
               </div>
-              <div class="flex flex-col gap-1 items-center">
-                  <img src={photoshopIcon} alt="Photoshop" class="h-10 w-10" />
-                  <p class="text-sm text-blue-950 kalam">Photoshop</p>
+              <div className="flex flex-col gap-1 items-center">
+                  <img src={photoshopIcon} alt="Photoshop" className="h-10 w-10" />
+                  <p className="text-sm text-blue-950 kalam">Photoshop</p>
               </div>
-              <div class="flex flex-col gap-1 items-center">
-                  <img src={illustratorIcon} alt="illustrator" class="h-10 w-10" />
-                  <p class="text-sm text-blue-950 kalam">Illustrator</p>
+              <div className="flex flex-col gap-1 items-center">
+                  <img src={illustratorIcon} alt="illustrator" className="h-10 w-10" />
+                  <p className="text-sm text-blue-950 kalam">Illustrator</p>
               </div>
           </div>
         </div>
