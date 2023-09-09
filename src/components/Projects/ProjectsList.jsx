@@ -1,26 +1,26 @@
 // console hub images
-import consoleHubImg from '../../assets/Projects/console-hub/consolehub-consoles.png'
-import consoleHubTab from '../../assets/Projects/console-hub/consolehub-consoles-tablet.png'
-import consoleHubMob from '../../assets/Projects/console-hub/consolehub-consoles-mobile.png'
+import consoleHubImg from '../../assets/Projects/consolehub-consoles.png'
+import consoleHubTab from '../../assets/Projects/consolehub-consoles-tablet.png'
+import consoleHubMob from '../../assets/Projects/consolehub-consoles-mobile.png'
 
 // image hub images
-import imageHubImg from '../../assets/Projects/image-hub/image-hub.png'
-import imageHubTab from '../../assets/Projects/image-hub/image-hub-tablet.png'
-import imageHubMob from '../../assets/Projects/image-hub/image-hub-mobile.png'
+import imageHubImg from '../../assets/Projects/image-hub.png'
+import imageHubTab from '../../assets/Projects/image-hub-tablet.png'
+import imageHubMob from '../../assets/Projects/image-hub-mobile.png'
 
 // consoles api images
-import consolesApiImg from '../../assets/Projects/console-api/consoles-api.png'
-import consolesApiTab from '../../assets/Projects/console-api/consoles-api-tab.png'
+import consolesApiImg from '../../assets/Projects/consoles-api.png'
+import consolesApiTab from '../../assets/Projects/consoles-api-tab.png'
 
 // pokemon favourites images
-import pokemonFavImg from '../../assets/Projects/pokemon-fav/pokemon-fav.png'
-import pokemonFavTab from '../../assets/Projects/pokemon-fav/pokemon-fav-tablet.png'
-import pokemonFavMob from '../../assets/Projects/pokemon-fav/pokemon-fav-mobile.png'
+import pokemonFavImg from '../../assets/Projects/pokemon-fav.png'
+import pokemonFavTab from '../../assets/Projects/pokemon-fav-tablet.png'
+import pokemonFavMob from '../../assets/Projects/pokemon-fav-mobile.png'
 
 // leaderboard images
-import leaderboardImg from '../../assets/Projects/leaderboard/leaderboard.png'
-import leaderboardTab from '../../assets/Projects/leaderboard/leaderboard-tablet.png'
-import leaderboardMob from '../../assets/Projects/leaderboard/leaderboard-mobile.png'
+import leaderboardImg from '../../assets/Projects/leaderboard.png'
+import leaderboardTab from '../../assets/Projects/leaderboard-tablet.png'
+import leaderboardMob from '../../assets/Projects/leaderboard-mobile.png'
 
 const ProjectsList = [
   {
