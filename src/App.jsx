@@ -3,7 +3,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import HeroSection from './components/Hero/HeroSection'
-import Projects from './components/Projects'
+import Projects from './components/Projects/Projects'
 import Skills from './components/Skills'
 
 function App() {
