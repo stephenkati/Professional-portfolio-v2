@@ -15,7 +15,7 @@ const ImageSwiper = (props) => {
       <SlideNextButton />
       {props.images.map((pic, picIndex) => (
         <SwiperSlide key={`${picIndex}`}>
-          <img src={pic} alt={picIndex} className="w-full max-w-sm rounded-lg" />
+          <img src={pic} alt={picIndex} loading="lazy" className="w-full max-w-sm rounded-lg" />
         </SwiperSlide>
       ))}
 
