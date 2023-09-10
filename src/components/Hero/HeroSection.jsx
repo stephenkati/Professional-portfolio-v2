@@ -2,8 +2,6 @@ import React from 'react'
 import Navbar from '../navigation/Navbar'
 import Hero from './Hero'
 import ProjectsHeader from './ProjectsHeader'
-import AboutMe from './AboutMe'
-import ContactMe from './ContactMe'
 
 const HeroSection = () => {
   return (
@@ -11,8 +9,6 @@ const HeroSection = () => {
       <Navbar />
       <Hero />
       <ProjectsHeader />
-      {/* <AboutMe />
-      <ContactMe /> */}
     </div>
   )
 }
