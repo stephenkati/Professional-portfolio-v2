@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import DesktopMenu from './DesktopMenu';
 import MobileMenu from './MobileMenu';
 import { FaBars } from 'react-icons/fa';
+import Logo from '/katuli_transparent.png'
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -11,12 +12,12 @@ const Navbar = () => {
   };
 
   return (
-    <div className="bg-red-100 text-blue-950 font-bold w-screen p-3 shadow-lg fixed top-0 z-20">
-      <div className="w-full flex gap-1 justify-between text items-center px-2">
+    <div className="bg-red-100 text-blue-950 font-bold w-sc py-1 px-4 shadow-lg fixed top-0 z-20 w-screen">
+      <div className="w-full flex gap-1 justify-between text items-center px-2 py-0">
         
-        <h1 className="logo kalam text-left text-3xl text-primary">
-          Katuli
-        </h1>
+        <div className="logo kalam text-left text-3xl text-primary w-28 h-16 flex items-center">
+          <img src={Logo} alt="Katuli" className="w-full" />
+        </div>
 
         <div>
           <DesktopMenu />
