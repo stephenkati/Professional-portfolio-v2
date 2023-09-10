@@ -34,14 +34,18 @@
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>React + Vite</summary>
+  <summary>Tools and Languages</summary>
   <ul>
-    <li><a>https://vitejs.dev</a></li>
-    <li><a>https://react.dev</a></li>
+    <li><a href="https://vitejs.dev">Vite JS</a></li>
+    <li><a href="https://react.dev">React</a></li>
+    <li><a href='https://tailwindcss.com/'>Tailwind CSS </a></li>
+    <li><a href='https://daisyui.com/' >DaisyUI</a></li>
   </ul>
 </details>
 
 <!-- Features -->
+
+### [Visit the site here](https://stephenkatuli.netlify.app/)
 
 ### Key Features <a name="key-features"></a>
 
@@ -97,8 +101,7 @@ To run tests, run the following command:
 
 
 ### Deployment
-
-  - Project is not deployed
+The project is deployed [here](https://stephenkatuli.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

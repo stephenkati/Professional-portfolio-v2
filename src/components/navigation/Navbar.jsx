@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="text-blue-950 font-bold w-full p-3 shadow-lg">
+    <div className="bg-red-100 text-blue-950 font-bold w-screen p-3 shadow-lg fixed top-0 z-20">
       <div className="w-full flex gap-1 justify-between text items-center px-2">
         
         <h1 className="logo kalam text-left text-3xl text-primary">
