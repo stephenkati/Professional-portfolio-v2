@@ -21,6 +21,7 @@ const Resume = () => {
       type='button'
       onClick={() => handleDownload(RESUME_FILE)}
       className="btn btn-secondary rounded-lg"
+      title="Download Resume"
     >
       Download Resume <BsDownload />
     </button>

@@ -11,6 +11,7 @@ export default function SlideNextButton() {
         type='button'
         onClick={() => swiper.slidePrev()}
         className='text-primary text-xl border border-primary rounded-full z-10 absolute left-0'
+        title='previous image'
       >
         <AiOutlineArrowLeft />
       </button>
@@ -19,6 +20,7 @@ export default function SlideNextButton() {
         type='button'
         onClick={() => swiper.slideNext()}
         className='text-primary text-xl border border-primary rounded-full z-10 absolute right-0 top-1/2 '
+        title='next image'
       >
         <AiOutlineArrowRight />
       </button>
