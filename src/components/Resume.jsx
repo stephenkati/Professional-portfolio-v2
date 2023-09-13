@@ -1,7 +1,7 @@
 import React from 'react'
 import { BsDownload } from 'react-icons/bs'
 
-const RESUME_FILE = '/Stephen_Katuli`s_Resume.pdf';
+const RESUME_FILE = '/Full Stack Resume.pdf';
 
 const Resume = () => {
 
@@ -21,6 +21,7 @@ const Resume = () => {
       type='button'
       onClick={() => handleDownload(RESUME_FILE)}
       className="btn btn-secondary rounded-lg"
+      title="Download Resume"
     >
       Download Resume <BsDownload />
     </button>
