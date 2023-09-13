@@ -1,7 +1,7 @@
 import React from 'react'
 import { BsDownload } from 'react-icons/bs'
 
-const RESUME_FILE = '/Stephen_Katuli`s_Resume.pdf';
+const RESUME_FILE = '/Full Stack Resume.pdf';
 
 const Resume = () => {
 
