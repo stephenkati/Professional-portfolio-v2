@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="flex flex-col gap-2 text-blue-950">
           <h3 className="font-bold text-3xl">Contact Me</h3>
           <p className="max-w-sm text-lg">I am committed to creating a warm and welcoming environment for everyone, and I look forward to getting to hear from you.</p>
-          <p className="text-lg">So don't be shy, drop me a message and let's get started!</p>
+          <p className="text-lg bg-blue-950 text-white p-1 rounded-lg">So don't be shy, drop me a message and let's get started!</p>
       </div>
 
       <form action="https://formspree.io/f/xyyapkva" method="POST" className="flex flex-col p-2 gap-4">
