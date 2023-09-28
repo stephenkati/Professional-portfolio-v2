@@ -31,7 +31,7 @@ const Skills = () => {
 
         <div className="p-2 flex flex-col gap-2 items-center">
 
-          <h4 className="font-bold text-2xl text-blue-950">Frond-End</h4>
+          <h4 className="font-bold text-2xl text-blue-950">Front-End</h4>
 
           <div className="flex flex-wrap justify-between gap-4">
               <div className="flex flex-col gap-1 items-center">

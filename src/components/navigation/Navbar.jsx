@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import DesktopMenu from './DesktopMenu';
 import MobileMenu from './MobileMenu';
 import { FaBars } from 'react-icons/fa';
-import Logo from '/katuli_transparent.png'
+import Logo from '/katuli.png'
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
