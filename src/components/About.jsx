@@ -11,7 +11,7 @@ const About = () => {
       <p className="max-w-sm text-center text-lg">Whether it's a small business website or a large-scale enterprise app, I'm committed to delivering high-quality, scalable, and maintainable solutions. Let's bring your ideas to life!</p>
       <p className="font-bold text-lg">
         Looking for my next job.
-        <span className={`rocket ${inView ? "animateRocket" : ''}`} ref={ref}>
+        <span className={`rocket text-3xl ${inView ? "animateRocket" : ''}`} ref={ref}>
           🚀
         </span>
       </p>
