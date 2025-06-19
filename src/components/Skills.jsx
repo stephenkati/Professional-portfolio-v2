@@ -53,7 +53,7 @@ const Skills = () => {
               </div>
               <div className="flex flex-col gap-1 items-center">
 {/*                   <img src={nextJSIcon} alt="Next Js" className="h-10 w-10" /> */}
-                {<img src={<IoLogoNodejs} alt="Node Js" className="h-10 w-10" /> }
+                {<img src={IoLogoNodejs} alt="Node Js" className="h-10 w-10" /> }
 
                 <p className="text-sm text-blue-950 kalam">Next Js</p>
               </div>
