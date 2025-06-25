@@ -22,7 +22,20 @@ import leaderboardImg from '../../assets/Projects/leaderboard.png'
 import leaderboardTab from '../../assets/Projects/leaderboard-tablet.png'
 import leaderboardMob from '../../assets/Projects/leaderboard-mobile.png'
 
+//bulk sms app
+import smsImg from '../../assets/Projects/Sms.png'
+import smsTab from '../../assets/Projects/Sms-tablet.png'
+import smsMob from '../../assets/Projects/Sms-phone.png'
+
 const ProjectsList = [
+  {
+    name: 'Sms Master',
+    images: [smsImg, smsTab, smsMob],
+    description: "Upload your file, schedule SMS messages, and let the system handle the rest. Perfect for sending reminders, promotions, or updates—track delivery in real time and easily retry failed messages. Powered by Africa’s Talking for smooth, reliable bulk messaging.",
+    stacks: ['Node Js', 'express', 'React', 'TailWind', 'Daisy UI'],
+    live: 'https://smsmaster.netlify.app/',
+    code: 'https://github.com/stephenkati/sms-master-front-end'
+  },
   {
     name: 'Console Hub',
     images: [consoleHubImg, consoleHubTab, consoleHubMob],

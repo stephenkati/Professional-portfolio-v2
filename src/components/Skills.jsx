@@ -1,10 +1,8 @@
-import React from 'react'
 import reactIcon from '../assets/Icons/react.svg'
 import reduxIcon from '../assets/Icons/redux.svg'
 import javascriptIcon from '../assets/Icons/javascript.svg'
 import viteIcon from '../assets/Icons/vite-svgrepo-com.svg'
-// import nextJSIcon from '../assets/Icons/next-js-svgrepo-com.svg'
-import { IoLogoNodejs } from "react-icons/io5";
+import nodeJs from '../assets/Icons/icons8-nodejs.svg'
 import htmlIcon from '../assets/Icons/html5.svg'
 import cssIcon from '../assets/Icons/css3.svg'
 import tailwindIcon from '../assets/Icons/tailwind-css.svg'
@@ -52,12 +50,6 @@ const Skills = () => {
                   <p className="text-sm text-blue-950 kalam">Vite</p>
               </div>
               <div className="flex flex-col gap-1 items-center">
-{/*                   <img src={nextJSIcon} alt="Next Js" className="h-10 w-10" /> */}
-                {<img src={IoLogoNodejs} alt="Node Js" className="h-10 w-10" /> }
-
-                <p className="text-sm text-blue-950 kalam">Next Js</p>
-              </div>
-              <div className="flex flex-col gap-1 items-center">
                   <img src={htmlIcon} alt="Html5" className="h-10 w-10" />
                   <p className="text-sm text-blue-950 kalam">HTML</p>
               </div>
@@ -79,6 +71,14 @@ const Skills = () => {
         <div className="p-2 flex flex-col gap-2 items-center">
             <h4 className="font-bold text-2xl text-blue-950">Back-End</h4>
             <div className="flex flex-wrap justify-between gap-4">
+                <img src={nodeJs} alt='NodeJs' className="h-10 w-10" />
+                <p className="h-10 w-10 flex items-center justify-center text-sm kalam text-green-600 text-center">
+                    Express
+                </p>
+                <p className="h-10 w-10 flex items-center justify-center text-sm kalam text-green-600 text-center">
+                    Mongo DB
+                </p>
+
                 <img src={rubyIcon} alt="Ruby" className="h-10 w-10" />
                 <img src={railsIcon} alt="Ruby on Rails" className="h-10 w-10" />
                 <img src={postgresIcon} alt="PostgreSQL" className="h-10 w-10" />

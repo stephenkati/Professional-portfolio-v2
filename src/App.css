@@ -52,6 +52,14 @@
   animation-name: animate-rocket;
 }
 
+.express {
+  color: green;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @keyframes animate-rocket {
   0% {
     transform: scale(1) rotate(10deg);
