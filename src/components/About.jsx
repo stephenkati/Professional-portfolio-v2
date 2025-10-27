@@ -1,22 +1,48 @@
-import React from 'react';
-import { useInView } from 'react-intersection-observer';
+import React from 'react'
+
+const highlights = [
+  {
+    title: 'Strategy to shipping',
+    copy: 'I partner with founders early, mapping flows, prototypes, and delivery plans that balance ambition with scope.'
+  },
+  {
+    title: 'Systems thinking',
+    copy: 'From component libraries to CI pipelines, I design for the next release so teams can move faster with less debt.'
+  },
+  {
+    title: 'Team amplifier',
+    copy: 'I enjoy pairing, mentoring, and documenting so knowledge compounds instead of hiding in commits.'
+  },
+  {
+    title: 'AI-driven DevOps',
+    copy: 'Recent deep-dive into a 10-step DevOps programme covering Linux, AWS, Terraform, Kubernetes, GitOps, and AI copilots to keep delivery pipelines sharp.'
+  }
+]
 
 const About = () => {
-  const { ref, inView } = useInView({"triggerOnce": true});
-
   return (
-    <div className="flex flex-col text-center justify-center gap-4 px-4 py-10 items-center text-blue-950" id="about">
-      <h3 className="text-3xl font-bold slide-in">About me</h3>
-      <p className="text-lg bg-blue-950 text-white p-1 rounded-lg">Full Stack developer with a passion for Ruby on Rails.</p>
-      <p className="max-w-sm text-center text-lg">Whether it's a small business website or a large-scale enterprise app, I'm committed to delivering high-quality, scalable, and maintainable solutions. Let's bring your ideas to life!</p>
-      <p className="font-bold text-lg">
-        Looking for my next job.
-        <span className={`rocket text-3xl ${inView ? "animateRocket" : ''}`} ref={ref}>
-          🚀
-        </span>
-      </p>
-    </div>
+    <section className="section-shell" id="about">
+      <div className="container about-card">
+        <div className="about-copy">
+          <p className="eyebrow">About me</p>
+          <h3>Full-stack dev shaping resilient digital products.</h3>
+          <p>
+            Whether it is a lean MVP or re-platforming a legacy tool, I focus on marrying tasteful interfaces with solid engineering,
+            giving teams confidence in what we ship.
+          </p>
+        </div>
+
+        <div className="about-highlights">
+          {highlights.map((highlight) => (
+            <article key={highlight.title}>
+              <h4>{highlight.title}</h4>
+              <p>{highlight.copy}</p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
   )
 }
 
-export default About;
+export default About

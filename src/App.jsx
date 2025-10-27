@@ -8,7 +8,8 @@ import Skills from './components/Skills'
 
 function App() {
   return (
-    <div className='bg-red-100'>
+    <div className="app-shell">
+      <div className="noise-overlay" aria-hidden="true" />
       <HeroSection />
       <Projects />
       <About />

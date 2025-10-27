@@ -5,12 +5,12 @@ import ProjectsHeader from './ProjectsHeader'
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col justify-around min-h-screen items-center">
+    <header className="hero-section" id="top">
       <Navbar />
       <Hero />
       <ProjectsHeader />
-    </div>
+    </header>
   )
 }
 
-export default HeroSection;
+export default HeroSection

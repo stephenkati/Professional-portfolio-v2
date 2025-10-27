@@ -1,31 +1,30 @@
 import React from 'react'
 import { BsDownload } from 'react-icons/bs'
 
-const RESUME_FILE = '/Full Stack Resume.pdf';
+const RESUME_FILE = '/Full Stack Resume.pdf'
 
-const Resume = () => {
-
+const Resume = ({ className = 'btn-pill btn-outline' }) => {
   const handleDownload = (url) => {
-    const filename = url.split("/").pop();
-    
-    const aTag = document.createElement("a");
-    aTag.href = url;
-    aTag.setAttribute("download", filename);
-    document.body.appendChild(aTag);
-    aTag.click();
-    aTag.remove();
-  };
+    const filename = url.split('/').pop()
+
+    const anchor = document.createElement('a')
+    anchor.href = url
+    anchor.setAttribute('download', filename)
+    document.body.appendChild(anchor)
+    anchor.click()
+    anchor.remove()
+  }
 
   return (
     <button
-      type='button'
+      type="button"
       onClick={() => handleDownload(RESUME_FILE)}
-      className="btn btn-secondary rounded-lg"
-      title="Download Resume"
+      className={className}
+      title="Download resume"
     >
-      Download Resume <BsDownload />
+      Download resume <BsDownload />
     </button>
   )
 }
 
-export default Resume;
+export default Resume

@@ -2,38 +2,40 @@ import React, { useState } from 'react';
 import DesktopMenu from './DesktopMenu';
 import MobileMenu from './MobileMenu';
 import { FaBars } from 'react-icons/fa';
-import Logo from '/katuli.png'
+import Logo from '/katuli.png';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  const handleMenuOpen = () => {
-    setIsMobileMenuOpen(!isMobileMenuOpen);
-  };
+  const toggleMenu = () => setIsMobileMenuOpen((prev) => !prev);
 
   return (
-    <div className="bg-red-100 text-blue-950 font-bold w-sc py-1 px-4 shadow-lg fixed top-0 z-20 w-screen">
-      <div className="w-full flex gap-1 justify-between text items-center px-2 py-0">
-        
-        <div className="logo kalam text-left text-3xl text-primary w-28 h-16 flex items-center">
-          <img src={Logo} alt="Katuli" className="w-full" />
-        </div>
+    <div className="navbar-shell">
+      <div className="container nav-inner">
+        <a href="#top" className="nav-brand" aria-label="Stephen Katuli logo">
+          <img src={Logo} alt="Katuli logo" className="nav-logo" />
+          <span>Stephen Katuli</span>
+        </a>
 
-        <div>
-          <DesktopMenu />
-          {isMobileMenuOpen && <MobileMenu />}
-          <span
-            className="sm:hidden text-2xl font-bold cursor-pointer"
-            onClick={handleMenuOpen}
+        <DesktopMenu />
+
+        <div className="nav-cta">
+          <a href="#contact" className="btn-pill btn-outline hidden sm:inline-flex">
+            Let&apos;s talk
+          </a>
+          <button
+            type="button"
+            className="menu-toggle sm:hidden"
+            onClick={toggleMenu}
+            aria-expanded={isMobileMenuOpen}
+            aria-controls="mobile-menu"
           >
             <FaBars />
-          </span>
+          </button>
         </div>
-
-        <a href='#contact' className="btn btn-primary rounded-lg hidden sm:flex">
-          Contact Me
-        </a>
       </div>
+
+      {isMobileMenuOpen && <MobileMenu onClose={toggleMenu} />}
     </div>
   );
 };

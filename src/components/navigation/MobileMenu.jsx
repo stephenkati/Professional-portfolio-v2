@@ -1,36 +1,38 @@
 import React from 'react'
 import { AiOutlineClose } from 'react-icons/ai'
 
-const MobileMenu = () => {
+const MobileMenu = ({ onClose }) => {
   const links = [
-    {text: 'Projects', section:'#projects'},
-    {text: 'About', section:'#about'},
-    {text: 'Skills', section:'#skills'}
-  ];
-
-  const handleMenuClose = () => {
-    const menu = document.querySelector('#menu');
-    menu.classList.toggle('hidden');
-  };
+    { text: 'Projects', section: '#projects' },
+    { text: 'About', section: '#about' },
+    { text: 'Skills', section: '#skills' },
+    { text: 'Contact', section: '#contact' }
+  ]
 
   return (
-    <div className="absolute top-0 left-0 right-0 bg-white p-4 bg-gray-200" id="menu">
-      <span
-        className="text-2xl font-bold cursor-pointer"
-        onClick={handleMenuClose}
+    <div className="mobile-menu" id="mobile-menu">
+      <button
+        type="button"
+        className="mobile-menu__close"
+        onClick={onClose}
+        aria-label="Close navigation"
       >
         <AiOutlineClose />
-      </span>
+      </button>
 
-      <ul className="flex-col gap-2 uppercase">
+      <div className="mobile-menu__links">
         {links.map((link) => (
-          <a href={link.section} key={link.text} className="p-3 hover:cursor-pointer slide-in">
-           {link.text}
+          <a key={link.text} href={link.section} onClick={onClose} className="nav-link">
+            {link.text}
           </a>
         ))}
-      </ul>
+      </div>
+
+      <a href="#contact" className="btn-pill btn-filled" onClick={onClose}>
+        Start a project
+      </a>
     </div>
   )
 }
 
-export default MobileMenu;
+export default MobileMenu

@@ -20,112 +20,109 @@ import figmaIcon from '../assets/Icons/figma.svg'
 import photoshopIcon from '../assets/Icons/photoshop.svg'
 import illustratorIcon from '../assets/Icons/illustrator.svg'
 
+const skillGroups = [
+  {
+    title: 'Product interfaces',
+    blurb: 'React ecosystems, animations, accessibility, and design systems.',
+    items: [
+      { icon: reactIcon, label: 'React' },
+      { icon: reduxIcon, label: 'Redux' },
+      { icon: javascriptIcon, label: 'JavaScript' },
+      { icon: viteIcon, label: 'Vite' },
+      { icon: htmlIcon, label: 'HTML' },
+      { icon: cssIcon, label: 'CSS' },
+      { icon: tailwindIcon, label: 'Tailwind' },
+      { icon: bootstrapIcon, label: 'Bootstrap' }
+    ]
+  },
+  {
+    title: 'Back-end & data',
+    blurb: 'APIs, auth, and databases that stay maintainable.',
+    items: [
+      { icon: nodeJs, label: 'Node.js' },
+      { label: 'Express' },
+      { label: 'MongoDB' },
+      { icon: rubyIcon, label: 'Ruby' },
+      { icon: railsIcon, label: 'Rails' },
+      { icon: postgresIcon, label: 'Postgres' },
+      { icon: mysqlIcon, label: 'MySQL' }
+    ]
+  },
+  {
+    title: 'Tooling & craft',
+    blurb: 'From CI to design handoff--everything that speeds iteration.',
+    items: [
+      { icon: gitIcon, label: 'Git' },
+      { icon: githubIcon, label: 'GitHub' },
+      { icon: netlifyIcon, label: 'Netlify' },
+      { icon: jestIcon, label: 'Jest' },
+      { icon: webpackIcon, label: 'Webpack' },
+      { icon: figmaIcon, label: 'Figma' },
+      { icon: photoshopIcon, label: 'Photoshop' },
+      { icon: illustratorIcon, label: 'Illustrator' }
+    ]
+  },
+  {
+    title: 'DevOps & cloud',
+    blurb: 'Linux-to-Kubernetes workflows, AWS automation, and AI-assisted pipelines.',
+    items: [
+      { label: 'Linux & server management' },
+      { label: 'Networking fundamentals' },
+      { label: 'Vagrant environments' },
+      { label: 'YAML / JSON' },
+      { label: 'Bash scripting' },
+      { label: 'Python automation' },
+      { label: 'Git & GitOps' },
+      { label: 'GitHub Actions' },
+      { label: 'GitLab CI/CD' },
+      { label: 'Jenkins' },
+      { label: 'Nexus & SonarQube' },
+      { label: 'Terraform' },
+      { label: 'Ansible' },
+      { label: 'Docker' },
+      { label: 'Kubernetes' },
+      { label: 'Helm (AI-assisted)' },
+      { label: 'AWS (IAM, EC2, S3, RDS, Lambda, VPC)' },
+      { label: 'CodePipeline & Beanstalk' },
+      { label: 'Route 53 & CloudWatch' },
+      { label: 'Amazon Q' },
+      { label: 'GitHub Copilot' },
+      { label: 'Lens observability' }
+    ]
+  }
+]
 
 const Skills = () => {
   return (
-    <div className="w-full flex flex-col items-center gap-4 p-4">
-      <h3 className="font-bold text-3xl text-blue-950 slide-in" id='skills'>Skills & Languages</h3>
-
-      <div className="p-4 flex flex-col items-center gap-4">
-
-        <div className="p-2 flex flex-col gap-2 items-center">
-
-          <h4 className="font-bold text-2xl text-blue-950">Front-End</h4>
-
-          <div className="flex flex-wrap justify-between gap-4">
-              <div className="flex flex-col gap-1 items-center">
-                  <img src={reactIcon} alt="React" className="h-10 w-10" />
-                  <p className="text-sm text-blue-950 kalam">React</p>
-              </div>
-              <div className="flex flex-col gap-1 items-center">
-                  <img src={reduxIcon} alt="Redux" className="h-10 w-10" />
-                  <p className="text-sm text-blue-950 kalam">Redux</p>
-              </div>
-              <div className="flex flex-col gap-1 items-center">
-                  <img src={javascriptIcon} alt="JavaScript" className="h-10 w-10" />
-                  <p className="text-sm text-blue-950 kalam">JavaScript</p>
-              </div>
-              <div className="flex flex-col gap-1 items-center">
-                  <img src={viteIcon} alt="Vite" className="h-10 w-10" />
-                  <p className="text-sm text-blue-950 kalam">Vite</p>
-              </div>
-              <div className="flex flex-col gap-1 items-center">
-                  <img src={htmlIcon} alt="Html5" className="h-10 w-10" />
-                  <p className="text-sm text-blue-950 kalam">HTML</p>
-              </div>
-              <div className="flex flex-col gap-1 items-center">
-                  <img src={cssIcon} alt="CSS3" className="h-10 w-10" />
-                  <p className="text-sm text-blue-950 kalam">CSS</p>
-              </div>
-              <div className="flex flex-col gap-1 items-center">
-                  <img src={tailwindIcon} alt="Tailwind CSS" className="h-10 w-10" />
-                  <p className="text-sm text-blue-950 kalam">Tailwind</p>
-              </div>
-              <div className="flex flex-col gap-1 items-center">
-                  <img src={bootstrapIcon} alt="Bootstrap" className="h-10 w-10" />
-                  <p className="text-sm text-blue-950 kalam">Bootstrap</p>
-              </div>
-          </div>
+    <section className="section-shell" id="skills">
+      <div className="container">
+        <div className="section-heading">
+          <p className="eyebrow">Toolbox</p>
+          <h3>Everything needed to move from idea to shipped experience.</h3>
+          <p>These are the frameworks and tools I reach for daily to keep projects stable, fast, and delightful.</p>
         </div>
 
-        <div className="p-2 flex flex-col gap-2 items-center">
-            <h4 className="font-bold text-2xl text-blue-950">Back-End</h4>
-            <div className="flex flex-wrap justify-between gap-4">
-                <img src={nodeJs} alt='NodeJs' className="h-10 w-10" />
-                <p className="h-10 w-10 flex items-center justify-center text-sm kalam text-green-600 text-center">
-                    Express
-                </p>
-                <p className="h-10 w-10 flex items-center justify-center text-sm kalam text-green-600 text-center">
-                    Mongo DB
-                </p>
-
-                <img src={rubyIcon} alt="Ruby" className="h-10 w-10" />
-                <img src={railsIcon} alt="Ruby on Rails" className="h-10 w-10" />
-                <img src={postgresIcon} alt="PostgreSQL" className="h-10 w-10" />
-                <img src={mysqlIcon} alt="MySQL" className="h-10 w-10" />
-            </div>
+        <div className="skills-grid">
+          {skillGroups.map((group) => (
+            <article key={group.title} className="skill-card">
+              <div>
+                <h4>{group.title}</h4>
+                <p>{group.blurb}</p>
+              </div>
+              <div className="skill-pill-group">
+                {group.items.map((item) => (
+                  <span key={item.label} className="skill-pill">
+                    {item.icon && <img src={item.icon} alt="" aria-hidden="true" />}
+                    {item.label}
+                  </span>
+                ))}
+              </div>
+            </article>
+          ))}
         </div>
-
-        <div className="p-2 flex flex-col gap-2 items-center">
-          <h4 className="font-bold text-2xl text-blue-950">Tools & Technologies</h4>
-          <div className="flex flex-wrap justify-between gap-4">
-              <div className="flex flex-col gap-1 items-center">
-                  <img src={gitIcon} alt="Git" className="h-10 w-10" />
-                  <p className="text-sm text-blue-950 kalam">Git</p>
-              </div>
-              <div className="flex flex-col gap-1 items-center">
-                  <img src={githubIcon} alt="Github" className="h-10 w-10" />
-                  <p className="text-sm text-blue-950 kalam">Github</p>
-              </div>
-              <div className="flex flex-col gap-1 items-center">
-                  <img src={netlifyIcon} alt="Netlify" className="h-10 w-10" />
-                  <p className="text-sm text-blue-950 kalam">Netlify</p>
-              </div>
-              <div className="flex flex-col gap-1 items-center">
-                  <img src={jestIcon} alt="Jest" className="h-10 w-10" />
-                  <p className="text-sm text-blue-950 kalam">Jest</p>
-              </div>
-              <div className="flex flex-col gap-1 items-center">
-                  <img src={webpackIcon} alt="Webpack" className="h-10 w-10" />
-                  <p className="text-sm text-blue-950 kalam">Webpack</p>
-              </div>
-              <div className="flex flex-col gap-1 items-center">
-                  <img src={figmaIcon} alt="Figma" className="h-10 w-10" />
-                  <p className="text-sm text-blue-950 kalam">Figma</p>
-              </div>
-              <div className="flex flex-col gap-1 items-center">
-                  <img src={photoshopIcon} alt="Photoshop" className="h-10 w-10" />
-                  <p className="text-sm text-blue-950 kalam">Photoshop</p>
-              </div>
-              <div className="flex flex-col gap-1 items-center">
-                  <img src={illustratorIcon} alt="illustrator" className="h-10 w-10" />
-                  <p className="text-sm text-blue-950 kalam">Illustrator</p>
-              </div>
-          </div>
-        </div>
-
       </div>
-    </div>
+    </section>
   )
 }
-export default Skills;
+
+export default Skills
